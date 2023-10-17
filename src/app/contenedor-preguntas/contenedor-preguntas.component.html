@@ -1,0 +1,7 @@
+<div class="b">
+    <h2>Preguntas:</h2>
+    <div *ngFor="let pregunta of listadoA">
+        <p (click)="darPregunta(pregunta)">{{pregunta.pregunta}}</p> 
+    </div>
+    <app-detalles-pregunta [pregunta]="preguntaDar" ></app-detalles-pregunta>
+</div>
