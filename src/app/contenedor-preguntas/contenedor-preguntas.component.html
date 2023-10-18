@@ -1,5 +1,6 @@
 <div class="b">
     <h2>Preguntas:</h2>
+    <hr>
     <div *ngFor="let pregunta of listadoA">
         <p (click)="darPregunta(pregunta)" [class.elegido]="pregunta === preguntaDar">{{pregunta.pregunta}}</p> 
     </div>
