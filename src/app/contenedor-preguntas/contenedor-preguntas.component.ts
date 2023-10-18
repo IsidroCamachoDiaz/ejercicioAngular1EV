@@ -14,7 +14,7 @@ export class ContenedorPreguntasComponent {
     this.getPreguntas();
   }
   getPreguntas():void{
-    this.listadoA=this.servioP.getPreguntas();
+    this.servioP.getPreguntas().subscribe(preguntas=>this.listadoA=preguntas)
   }
   preguntaDar?:preguntas;
   

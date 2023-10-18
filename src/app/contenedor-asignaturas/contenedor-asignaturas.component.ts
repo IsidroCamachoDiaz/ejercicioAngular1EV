@@ -16,6 +16,6 @@ ngOnInit(): void {
 }
 
 public getAsignaturas():void{
-this.listadoA=this.servioA.getAsignaturas();
+this.servioA.getAsignaturas().subscribe(asignaturas=>this.listadoA=asignaturas);
 }
 }

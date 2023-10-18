@@ -7,6 +7,7 @@ import { ContenedorAsignaturasComponent } from './contenedor-asignaturas/contene
 import { ContenedorPreguntasComponent } from './contenedor-preguntas/contenedor-preguntas.component';
 import { DetallesAsignaturaComponent } from './contenedor-asignaturas/detalles-asignatura/detalles-asignatura.component';
 import { DetallesPreguntaComponent } from './contenedor-preguntas/detalles-pregunta/detalles-pregunta.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DetallesPreguntaComponent } from './contenedor-preguntas/detalles-pregu
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
