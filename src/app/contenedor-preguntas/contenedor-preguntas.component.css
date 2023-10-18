@@ -4,3 +4,12 @@
 h2{
     text-align: center;
 }
+p:hover{
+    background-color: rgb(28, 126, 253);
+    color: white;
+}
+
+p.elegido {
+    background-color: rgb(12, 48, 253);
+    color: white;
+  }
